@@ -31,7 +31,7 @@ export default function Testimonials() {
   return (
     <section className="py-20 px-6 text-white">
       <div className="container mx-auto max-w-5xl">
-        <h2 className="text-4xl md:text-5xl font-extrabold mb-12 text-center bg-gradient-to-r from-yellow-400 via-pink-400 to-red-500 bg-clip-text text-transparent drop-shadow-[0_0_15px_rgba(255,100,100,0.9)]">
+        <h2 className="text-4xl h-20 md:text-5xl font-extrabold mb-12 text-center bg-gradient-to-r from-yellow-400 via-pink-400 to-red-500 bg-clip-text text-transparent drop-shadow-[0_0_15px_rgba(255,100,100,0.9)]">
           What They’re Saying
         </h2>
 

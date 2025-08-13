@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { FileText, Flame, Skull } from "lucide-react";
 import AnimatedCvSvg from "./AnimatedCVSVG";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -33,19 +34,23 @@ export default function Hero() {
 
         {/* CTAs */}
         <div className="flex flex-wrap justify-center gap-4">
-          <Button
-            size="lg"
-            className="bg-yellow-400 text-black hover:bg-yellow-300 font-bold shadow-xl transform hover:scale-105 transition-transform"
-          >
-            Roast My Resume
-          </Button>
-          <Button
-            size="lg"
-            variant="outline"
-            className="border-white text-black hover:bg-white/10 hover:scale-105 transition-transform"
-          >
-            Show Me How It Works
-          </Button>
+          <Link href="/roast">
+            <Button
+              size="lg"
+              className="bg-yellow-400 text-black hover:bg-yellow-300 font-bold shadow-xl transform hover:scale-105 transition-transform"
+            >
+              Roast My Resume
+            </Button>
+          </Link>
+          <Link href="#how-it-works">
+            <Button
+              size="lg"
+              variant="outline"
+              className="border-white text-black hover:bg-white/10 hover:scale-105 transition-transform"
+            >
+              Show Me How It Works
+            </Button>
+          </Link>
         </div>
 
         {/* Tagline */}

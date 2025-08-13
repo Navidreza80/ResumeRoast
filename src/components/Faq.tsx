@@ -34,7 +34,7 @@ export default function FAQ() {
   }
 
   return (
-    <section className="w-full py-20 px-6 text-white shadow-lg">
+    <section className="w-full py-20 px-6 text-white">
       <h2 className="text-center text-4xl md:text-5xl font-extrabold mb-12 bg-gradient-to-r from-yellow-400 via-pink-400 to-red-500 bg-clip-text text-transparent drop-shadow-[0_0_15px_rgba(255,100,100,0.9)]">
         FAQ — We Got You Covered
       </h2>

@@ -1,3 +1,4 @@
+import CTASection from "@/components/CTASection";
 import FAQ from "@/components/Faq";
 import Features from "@/components/Features";
 import Footer from "@/components/Footer";
@@ -12,8 +13,8 @@ export default function HomePage() {
       <HowItWorks />
       <Features />
       <Testimonials />
-
       <FAQ />
+      <CTASection />
       <Footer />
     </main>
   );
