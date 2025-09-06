@@ -5,6 +5,13 @@ A full-stack app built with Next.js, TypeScript, and the OpenRouter API.
 
 ---
 
+<img width="1919" height="970" alt="image" src="https://github.com/user-attachments/assets/faed0e5c-7b77-4d26-bdc9-e6b808840afd" />
+*Homepage*
+<img width="1919" height="970" alt="image" src="https://github.com/user-attachments/assets/cc751f31-4926-4fa1-94cb-6f5b05e6f21b" />
+*Resume upload*
+
+---
+
 ## Table of Contents
 
 - [Live Demo](#live-demo)  
@@ -22,8 +29,7 @@ A full-stack app built with Next.js, TypeScript, and the OpenRouter API.
 
 ## Live Demo
 
-*(If deployed — insert link here)*  
-Example: [Live Preview on Vercel](https://your-demo-url.vercel.app)
+[Live Preview on Vercel](https://resumeroast.netlify.app)
 
 ---
 
@@ -36,10 +42,6 @@ ResumeRoast is a playful yet practical app that uses AI to provide feedback on y
 ## Features
 
 - Upload your resume, and receive AI-powered analysis and comedic roast.
-- Highlighted sections: formatting issues, redundant phrases, skill mismatches.
-- (Optional) Download a "roasted" version or see suggestions for improvement.
-
-*(Update with the exact features your app includes.)*
 
 ---
 
@@ -48,8 +50,8 @@ ResumeRoast is a playful yet practical app that uses AI to provide feedback on y
 - **Framework**: Next.js  
 - **Language**: TypeScript  
 - **AI Integration**: OpenRouter API  
-- **Styling**: *(Insert if using Tailwind CSS, CSS Modules, etc.)*  
-- **Linting/Formatting**: ESLint, Prettier *(if applicable)*
+- **Styling**: Tailwind CSS 
+- **Linting/Formatting**: ESLint, Prettier
 
 ---
 
